@@ -51,7 +51,7 @@ const AuthForm = () => {
    <div className="bg-white px-4 py-8 shadow sm:rounded-lg sm:px-10">
     <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
      {/* wrap onSubmit in handleSubmit to get data from useForm hook */}
-     <Input />
+     <Input label="Email" />
     </form>
    </div>
   </div>
