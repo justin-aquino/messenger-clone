@@ -75,7 +75,7 @@ const AuthForm = () => {
             errors={errors}
             type="password"
           />
-          <Button></Button>
+          <Button>Test</Button>
 
           {/* wrap onSubmit in handleSubmit to get data from useForm hook */}
         </form>
